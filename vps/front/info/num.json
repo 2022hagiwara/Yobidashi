@@ -1,0 +1,112 @@
+{
+  "A13": {
+    "alphabet": "A",
+    "num": "13",
+    "color": "yellow"
+  },
+  "A107": {
+    "alphabet": "A",
+    "num": "107",
+    "color": "yellow"
+  },
+  "B17": {
+    "alphabet": "B",
+    "num": "17",
+    "color": "yellow"
+  },
+  "M39": {
+    "alphabet": "M",
+    "num": "39",
+    "color": "aqua"
+  },
+  "L222": {
+    "alphabet": "L",
+    "num": "222",
+    "color": "lime"
+  },
+  "P1": {
+    "alphabet": "P",
+    "num": "1",
+    "color": "lime"
+  },
+  "G13": {
+    "alphabet": "G",
+    "num": "13",
+    "color": "yellow"
+  },
+  "G1233": {
+    "alphabet": "G",
+    "num": "1233",
+    "color": "yellow"
+  },
+  "G64": {
+    "alphabet": "G",
+    "num": "64",
+    "color": "lime"
+  },
+  "G321": {
+    "alphabet": "G",
+    "num": "321",
+    "color": "yellow"
+  },
+  "G4444": {
+    "alphabet": "G",
+    "num": "4444",
+    "color": "yellow"
+  },
+  "G1111": {
+    "alphabet": "G",
+    "num": "1111",
+    "color": "orange"
+  },
+  "G222": {
+    "alphabet": "G",
+    "num": "222",
+    "color": "yellow"
+  },
+  "G34": {
+    "alphabet": "G",
+    "num": "34",
+    "color": "yellow"
+  },
+  "G555": {
+    "alphabet": "G",
+    "num": "555",
+    "color": "yellow"
+  },
+  "G666": {
+    "alphabet": "G",
+    "num": "666",
+    "color": "yellow"
+  },
+  "G543": {
+    "alphabet": "G",
+    "num": "543",
+    "color": "yellow"
+  },
+  "G123": {
+    "alphabet": "G",
+    "num": "123",
+    "color": "yellow"
+  },
+  "G99": {
+    "alphabet": "G",
+    "num": "99",
+    "color": "yellow"
+  },
+  "G44": {
+    "alphabet": "G",
+    "num": "44",
+    "color": "yellow"
+  },
+  "G56": {
+    "alphabet": "G",
+    "num": "56",
+    "color": "yellow"
+  },
+  "G333": {
+    "alphabet": "G",
+    "num": "333",
+    "color": "yellow"
+  }
+}

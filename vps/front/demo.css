@@ -1,0 +1,27 @@
+main {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#sousa {
+    border: solid 1px darkred;
+    padding: 5%;
+    margin: 20px;
+    background-color: palevioletred;
+
+    color: white;
+    font-size: 10vh;
+}
+
+#gamen {
+    border: solid 1px darkblue;
+    padding: 5%;
+    margin: 20px;
+    background-color: aquamarine;
+
+
+    color: black;
+    font-size: 10vh;
+}

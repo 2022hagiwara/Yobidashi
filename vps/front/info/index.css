@@ -1,0 +1,34 @@
+.tile {
+    display: inline-block;
+    outline: solid 3px black;
+    outline-offset: -3px;
+    width: 20vw;
+    height: 4vw;
+    text-align: center;
+
+    font-size: xx-large;
+}
+
+#fullscreen {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+#voice {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+::backdrop {
+    background-color: white;
+}

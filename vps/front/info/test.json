@@ -1,0 +1,17 @@
+{
+  "A123": {
+    "alphabet": "A",
+    "num": "123",
+    "color": "yellow"
+  },
+  "B999": {
+    "alphabet": "B",
+    "num": "999",
+    "color": "blue"
+  },
+  "C2": {
+    "alphabet": "C",
+    "num": "2",
+    "color": "red"
+  }
+}

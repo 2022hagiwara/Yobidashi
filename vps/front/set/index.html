@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>呼び出し，設定</title>
+
+    <link rel="icon" href="assets/hagi.ico">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+
+
+    <main>
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <th> <label for="code">バーコード</label></th>
+                        <td><input type="number" id="code" name="code" onmouseover="select()"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="alphabet">アルファベット</label></th>
+                        <td><input type="text" maxlength="1" id="alphabet" name="alphabet" oninput="check_form()"
+                                onmouseover="select()"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="num">番号</label></th>
+                        <td><input type="number" id="num" name="num" onmouseover="select()"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="color">色</label></th>
+                        <td><input type="radio" name="color" value="yellow" onchange="change_example()" checked><span
+                                class="flame_yellow">黄色</span>
+                        </td>
+                        <td><input type="radio" name="color" value="aqua" onchange="change_example()"><span
+                                class="flame_blue">水色</span></td>
+                        <td><input type="radio" name="color" value="lime" onchange="change_example()"><span
+                                class="flame_green">緑</span></td>
+                        <td><input type="radio" name="color" value="orange" onchange="change_example()"><span
+                                class="flame_orange">オレンジ</span></td>
+                        <td><input type="radio" name="color" value="silver" onchange="change_example()"><span
+                                class="flame_other">その他</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>表示される番号</th>
+                        <td id="example"></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="btn_cli()">send</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p id="result"></p>
+        </div>
+        <div id="div-list">
+            <button onclick="conn()">リストを更新</button>
+            <ul id="list">
+
+            </ul>
+        </div>
+    </main>
+
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

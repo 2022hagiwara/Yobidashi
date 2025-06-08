@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+}
+
+main {
+    display: flex;
+}
+
+table {
+    border: solid 1px black;
+}
+
+#example {
+    text-align: center;
+}
+
+#div-list {
+    text-align: center;
+}
+
+#list {
+    margin: 0 5px;
+    padding: 0;
+    width: 50vh;
+    height: 90vh;
+
+    border: solid 3px darkcyan;
+    overflow-y: scroll;
+}
+
+#list>li {
+    position: relative;
+}
+
+#list>li>button {
+    position: absolute;
+    right: 0;
+}
